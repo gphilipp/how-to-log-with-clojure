@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Appenders>
+        <Console name="ConsoleJSONAppender" target="SYSTEM_OUT">
+            <JsonLayout complete="false" compact="true" properties="true">
+                <KeyValuePair key="service" value="myService"/>
+            </JsonLayout>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="ConsoleJSONAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,5 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/tools.logging {:mvn/version "1.1.0"}
+        org.apache.logging.log4j/log4j-api {:mvn/version "2.13.2"}
+        org.apache.logging.log4j/log4j-core {:mvn/version "2.13.2"}
+        com.fasterxml.jackson.core/jackson-databind {:mvn/version "2.11.0"}}}

@@ -1,0 +1,2 @@
+{:paths ["src" "resources"]
+ :deps {clj-loga {:mvn/version "0.7.2"}}}
